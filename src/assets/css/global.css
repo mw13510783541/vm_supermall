@@ -2,6 +2,7 @@ html,body,#app{
   height: 100%;
   padding: 0;
   margin: 0;
+  min-width: 1366px;
 }
 
 .el-card{
@@ -15,4 +16,7 @@ html,body,#app{
 
 .el-pagination{
   margin-top: 10px;
+}
+.el-card{
+  margin-top: 15px;
 }
