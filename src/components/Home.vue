@@ -20,8 +20,8 @@
           text-color="#fff"
           active-text-color="#3E8BDD"
           unique-opened
-          :collapse='isCollapse'
-          :collapse-transition='false'
+          :collapse="isCollapse"
+          :collapse-transition="false"
           router
         >
           <!-- 一级菜单 -->
@@ -113,8 +113,8 @@ export default {
   .el-container {
     .el-aside {
       background-color: #373d41;
-      .toggle_menu{
-        background-color: #4A5064;
+      .toggle_menu {
+        background-color: #4a5064;
         text-align: center;
         height: 25px;
         line-height: 25px;
@@ -122,8 +122,8 @@ export default {
         font-size: 12px;
         letter-spacing: 0.1em;
       }
-      .el-menu{
-        border-right:none;
+      .el-menu {
+        border-right: none;
       }
     }
     .el-main {

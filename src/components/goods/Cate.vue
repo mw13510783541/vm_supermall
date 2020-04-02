@@ -54,12 +54,7 @@
     ></el-pagination>
 
     <!-- 添加商品分类对话框 -->
-    <el-dialog
-      title="提示"
-      :visible.sync="cateDialogVisible"
-      width="50%"
-      @close="addCateDialogClosed"
-    >
+    <el-dialog title="提示" :visible.sync="cateDialogVisible" width="50%" @close="addCateDialogClosed">
       <!-- form -->
       <el-form :model="cateForm" :rules="cateFormrRules" ref="cateFormRef" label-width="80px">
         <el-form-item label="商品名称" prop="cat_name">
@@ -76,7 +71,6 @@
           ></el-cascader>
         </el-form-item>
       </el-form>
-
       <span slot="footer" class="dialog-footer">
         <el-button @click="cateDialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="submitCate">确 定</el-button>
